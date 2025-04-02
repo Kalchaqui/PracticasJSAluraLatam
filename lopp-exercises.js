@@ -37,14 +37,17 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=12732
 // 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
-const numeros = [2, 20, 50, 17, 38]
-let producto = 1// Inicializamos en 1 porque multiplicar por 0 daría siempre 0
-for (let i = 0; i< numeros.length; i++) {
-    producto *= numeros[i]; // Multiplicamos cada número
-      console.log(`La multiplicación es: ${producto}`);
-  }
+//const numeros = [2, 20, 50, 17, 38]
+//let producto = 1// Inicializamos en 1 porque multiplicar por 0 daría siempre 0
+//for (let i = 0; i< numeros.length; i++) {
+  //  producto *= numeros[i]; // Multiplicamos cada número
+    //  console.log(`La multiplicación es: ${producto}`);
+  //}
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
+for (let i = 1; i <= 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+}
 
 // 8. Usa un bucle para invertir una cadena de texto
 
