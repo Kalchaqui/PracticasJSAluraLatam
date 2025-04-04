@@ -54,3 +54,14 @@ for (let i = 1; i <= 10; i++) {
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+const numeros = [2,5,6,8,1,23,54,7867,12,43,67,1,5,7,]
+const mayores10 = []
+for (let i=0; i<numeros.length; i++){
+    if(numeros[i]>10){
+
+mayores10.push(numeros[i])
+
+    }
+
+}
+console.log(`Los mayores a 10 son:${mayores10}`)
